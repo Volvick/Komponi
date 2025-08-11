@@ -916,6 +916,7 @@ button > i {
 .card-image {
   /* background: #5e5e5e; */
   overflow: hidden;
+  border: 1px solid #eeeeee;
   border-radius: 6px;
   max-height: 500px; /* Keeps tall images in check */
 }
