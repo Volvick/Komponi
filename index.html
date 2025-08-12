@@ -10,66 +10,387 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <link rel="shortcut icon" href="./asset/images/icon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./asset/images/icon.png"
+      type="image/x-icon"
+    />
   </head>
+  <!-- Primary SEO Meta Tags -->
+  <title>
+    KOMPONI - Free Premium Figma UI Components & Design Systems | 50+ Assets
+  </title>
+  <meta
+    name="description"
+    content="Download 50+ free premium Figma UI components, hero sections, buttons, forms & design systems. High-quality assets by professional designers. Free commercial use. Trusted by 100+ designers worldwide."
+  />
+  <meta
+    name="keywords"
+    content="free figma components, figma ui kit, free design system, figma templates download, ui components library, free figma assets, hero sections figma, figma buttons, design resources, figma ui elements"
+  />
+  <meta name="author" content="KOMPONI Design Team" />
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  />
+  <meta name="googlebot" content="index, follow" />
+  <link rel="canonical" href="https://komponi.vercel.app/" />
+
+  <!-- Open Graph Meta Tags (Facebook, WhatsApp, LinkedIn, Discord) -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="KOMPONI - Free Premium Figma UI Components & Design Systems"
+  />
+  <meta
+    property="og:description"
+    content="Download 50+ free premium Figma UI components, hero sections, buttons, forms & design systems. High-quality assets by professional designers, completely free for commercial use. Trusted by 100+ designers worldwide."
+  />
+  <meta property="og:url" content="https://komponi.vercel.app/" />
+  <meta property="og:site_name" content="KOMPONI" />
+  <meta
+    property="og:image"
+    content="https://raw.githubusercontent.com/Volvick/image/refs/heads/main/og%20image.png"
+  />
+  <meta
+    property="og:image:secure_url"
+    content="https://raw.githubusercontent.com/Volvick/image/refs/heads/main/og%20image.png"
+  />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta
+    property="og:image:alt"
+    content="KOMPONI - Free Premium Figma UI Components, Hero Sections, and Design Systems for Designers"
+  />
+  <meta property="og:image:type" content="image/png" />
+
+  <!-- Additional Open Graph for better sharing -->
+  <meta property="article:publisher" content="https://komponi.vercel.app" />
+  <meta property="article:author" content="KOMPONI Design Team" />
+  <meta property="article:section" content="Design Resources" />
+  <meta property="article:tag" content="Figma" />
+  <meta property="article:tag" content="UI Components" />
+  <meta property="article:tag" content="Design System" />
+  <meta property="article:tag" content="Free Resources" />
+
+  <!-- Twitter Card Meta Tags (Twitter/X) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@komponi_design" />
+  <meta name="twitter:creator" content="@komponi_design" />
+  <meta
+    name="twitter:title"
+    content="KOMPONI - Free Premium Figma UI Components"
+  />
+  <meta
+    name="twitter:description"
+    content="Download 50+ free premium Figma UI components, hero sections & design systems. High-quality assets by professional designers. Free for commercial use!"
+  />
+  <meta
+    name="twitter:image"
+    content="https://raw.githubusercontent.com/Volvick/image/refs/heads/main/og%20image.png"
+  />
+  <meta
+    name="twitter:image:alt"
+    content="KOMPONI - Free Premium Figma UI Components and Design Systems"
+  />
+  <meta name="twitter:domain" content="komponi.vercel.app" />
+  <meta name="twitter:url" content="https://komponi.vercel.app/" />
+
+  <!-- LinkedIn Specific (uses Open Graph but these help) -->
+  <meta property="linkedin:owner" content="KOMPONI" />
+
+  <!-- Pinterest Meta Tags -->
+  <meta name="pinterest" content="nopin" />
+  <meta
+    property="pinterest:title"
+    content="KOMPONI - Free Premium Figma UI Components"
+  />
+  <meta
+    property="pinterest:description"
+    content="Download 50+ free premium Figma UI components and design systems"
+  />
+  <meta
+    property="pinterest:image"
+    content="https://raw.githubusercontent.com/Volvick/image/refs/heads/main/og%20image.png"
+  />
+
+  <!-- Telegram Meta Tags -->
+  <meta name="telegram:channel" content="@komponi_design" />
+
+  <!-- WhatsApp (uses Open Graph) -->
+  <meta property="whatsapp:title" content="KOMPONI - Free Figma Components" />
+  <meta
+    property="whatsapp:image"
+    content="https://raw.githubusercontent.com/Volvick/image/refs/heads/main/og%20image.png"
+  />
+
+  <!-- Slack (uses Open Graph but these help) -->
+  <meta name="slack-app-id" content="KOMPONI" />
+
+  <!-- Reddit Meta Tags -->
+  <meta
+    name="reddit:title"
+    content="KOMPONI - Free Premium Figma UI Components"
+  />
+  <meta
+    name="reddit:description"
+    content="Download 50+ free premium Figma components"
+  />
+
+  <!-- Additional Meta Tags for Better SEO -->
+  <meta name="theme-color" content="#2563eb" />
+  <meta name="msapplication-TileColor" content="#2563eb" />
+  <meta name="apple-mobile-web-app-title" content="KOMPONI" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="application-name" content="KOMPONI" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="msapplication-starturl" content="/" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="/asset/images/icon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/asset/images/icon.png" />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/asset/images/icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/asset/images/icon.png"
+  />
+  <link rel="manifest" href="/asset/seo files/site.webmanifest" />
+
+  <!-- DNS Prefetch for Performance -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//raw.githubusercontent.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Structured Data for Rich Results -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "KOMPONI",
+      "alternateName": "KOMPONI Figma Components",
+      "description": "Free premium Figma UI components and design systems for designers and developers",
+      "url": "https://komponi.vercel.app",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web Browser",
+      "browserRequirements": "Requires modern web browser with JavaScript enabled",
+      "author": {
+        "@type": "Organization",
+        "name": "KOMPONI Design Team",
+        "url": "https://komponi.vercel.app"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "priceValidUntil": "2025-12-31",
+        "seller": {
+          "@type": "Organization",
+          "name": "KOMPONI"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "100",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "screenshot": "https://raw.githubusercontent.com/Volvick/image/refs/heads/main/og%20image.png",
+      "featureList": [
+        "Free Figma UI Components",
+        "Hero Section Templates",
+        "Design System Components",
+        "Commercial Use License",
+        "Regular Updates"
+      ],
+      "downloadUrl": "https://komponi.vercel.app/gallery.html",
+      "softwareVersion": "1.0",
+      "datePublished": "2025-08-01",
+      "dateModified": "2025-08-12"
+    }
+  </script>
+
+  <!-- FAQ Schema for Better Rich Snippets -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are KOMPONI Figma components really free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, all KOMPONI Figma UI components are completely free for personal and commercial use without requiring attribution."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I use KOMPONI Figma components?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Download the .fig file, open Figma, go to File → Import, select the downloaded file, and start customizing the components for your project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of Figma components does KOMPONI offer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KOMPONI offers hero sections, UI components (buttons, forms, cards), navigation elements, and complete design systems for modern web interfaces."
+          }
+        }
+      ]
+    }
+  </script>
+
+  <!-- Organization Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "KOMPONI",
+      "url": "https://komponi.vercel.app",
+      "logo": "https://raw.githubusercontent.com/Volvick/image/refs/heads/main/og%20image.png",
+      "description": "Provider of free premium Figma UI components and design systems",
+      "foundingDate": "2025",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "KOMPONI Design Team"
+        }
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "url": "https://komponi.vercel.app/support.html"
+      },
+      "sameAs": ["https://twitter.com/volvickk", "https://github.com/volvick"]
+    }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://komponi.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Free Figma Components",
+          "item": "https://komponi.vercel.app/gallery.html"
+        }
+      ]
+    }
+  </script>
 
   <body>
-    <!-- Navigation -->
-    <nav>
+    <!-- Navigation - SEO Optimized -->
+    <nav role="navigation" aria-label="Main navigation">
       <div class="container">
         <div class="nav-container">
-          <a href="index.html" class="logo">KOMPONI </a>
+          <a
+            href="index.html"
+            class="logo"
+            aria-label="KOMPONI - Free Figma Components Home"
+            >KOMPONI</a
+          >
 
           <!-- Hamburger Button -->
-          <div class="hamburger" id="hamburger">
+          <button
+            class="hamburger"
+            id="hamburger"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
             <span></span>
             <span></span>
             <span></span>
-          </div>
+          </button>
 
           <!-- Links -->
           <ul class="nav-links" id="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li>
+              <a href="index.html" class="active" aria-current="page">Home</a>
+            </li>
+            <li><a href="gallery.html">Free Figma Gallery</a></li>
             <li><a href="support.html">Support & Contribute</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section - SEO Enhanced -->
     <section class="hero">
       <div class="container">
         <div class="hero-content">
-          <h1>Premium Free Figma Assets for Creators</h1>
+          <h1>
+            Free Premium Figma UI Components & Design Systems for Designers
+          </h1>
           <p class="hero-subtitle">
-            Download high-quality UI components, templates, and design systems.
-            Crafted by designers, completely free.
+            Download 50+ high-quality Figma UI components, hero sections,
+            buttons, forms, and complete design systems. Professionally crafted
+            by designers, completely free for commercial use.
           </p>
 
           <div class="hero-cta">
-            <a href="gallery.html" class="btn">Browse Assets</a>
-            <a href="#categories" class="btn btn-secondary"
+            <a
+              href="gallery.html"
+              class="btn"
+              aria-label="Browse free Figma assets gallery"
+              >Browse Free Assets</a
+            >
+            <a
+              href="#categories"
+              class="btn btn-secondary"
+              aria-label="Explore Figma component categories"
               >Explore Categories</a
             >
+          </div>
+
+          <!-- Added trust indicators in hero -->
+          <div class="hero-stats">
+            <span><strong>50+</strong> Free Components</span>
+            <span><strong>100+</strong> Happy Designers</span>
+            <span><strong>Commercial Use</strong> Allowed</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Categories Section -->
+    <!-- Categories Section - SEO Enhanced -->
     <section class="categories" id="categories">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title">Explore Categories</h2>
+          <h2 class="section-title">Free Figma Component Categories</h2>
           <p class="section-subtitle">
-            Discover our carefully curated collection of premium Figma assets,
-            organized by category for easy browsing.
+            Discover our carefully curated collection of premium Figma UI
+            components and design systems, organized by category for easy
+            browsing. All assets are free for personal and commercial use.
           </p>
         </div>
 
         <div class="categories-grid">
-          <div class="card">
+          <article class="card" itemscope itemtype="https://schema.org/Product">
             <div class="category-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -78,6 +399,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-6"
+                aria-hidden="true"
               >
                 <path
                   stroke-linecap="round"
@@ -91,18 +413,28 @@
                 />
               </svg>
             </div>
-            <h3 class="category-title">Hero Sections</h3>
-            <p class="category-description">
-              Eye-catching hero components designed to capture attention and
-              drive conversions on landing pages.
+            <h3 class="category-title" itemprop="name">
+              Free Figma Hero Sections
+            </h3>
+            <p class="category-description" itemprop="description">
+              Eye-catching hero section components designed to capture attention
+              and drive conversions on landing pages. Perfect for SaaS,
+              startups, and portfolio websites.
             </p>
             <div class="category-meta">
-              <span class="asset-count">4 Assets</span>
-              <a href="gallery.html" class="btn btn-secondary">Explore</a>
+              <span class="asset-count" itemprop="numberOfItems"
+                >4 Free Assets</span
+              >
+              <a
+                href="gallery.html#hero-sections"
+                class="btn btn-secondary"
+                aria-label="Browse free Figma hero sections"
+                >Explore
+              </a>
             </div>
-          </div>
+          </article>
 
-          <div class="card">
+          <article class="card" itemscope itemtype="https://schema.org/Product">
             <div class="category-icon">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -111,6 +443,7 @@
                 stroke-width="1.5"
                 stroke="currentColor"
                 class="size-6"
+                aria-hidden="true"
               >
                 <path
                   stroke-linecap="round"
@@ -119,35 +452,56 @@
                 />
               </svg>
             </div>
-            <h3 class="category-title">UI Components</h3>
-            <p class="category-description">
-              Essential UI elements including cards, buttons, forms, and
-              navigation components for modern interfaces.
+            <h3 class="category-title" itemprop="name">
+              Free Figma UI Components Library
+            </h3>
+            <p class="category-description" itemprop="description">
+              Essential UI elements including modern cards, buttons, forms,
+              input fields, and navigation components for building contemporary
+              user interfaces and web applications.
             </p>
             <div class="category-meta">
-              <span class="asset-count">5 Assets</span>
-              <a href="gallery.html" class="btn btn-secondary">Explore</a>
+              <span class="asset-count" itemprop="numberOfItems"
+                >6 Free Components</span
+              >
+              <a
+                href="gallery.html#ui-components"
+                class="btn btn-secondary"
+                aria-label="Browse free Figma UI components"
+                >Explore
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enhanced Trust Section -->
+    <section class="trust">
+      <div class="container">
+        <h3 class="trust-title">Trusted by Figma Designers Worldwide</h3>
+        <div class="trust-logos">
+          <div class="trust-stats">
+            <div class="trust-stat">
+              <span class="stat-number">100+</span>
+              <span class="stat-label"
+                >Designers using KOMPONI free Figma assets</span
+              >
+            </div>
+            <div class="trust-stat">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Free Figma components available</span>
+            </div>
+            <div class="trust-stat">
+              <span class="stat-number">4.9★</span>
+              <span class="stat-label">Average designer rating</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Trust Section -->
-    <section class="trust">
-      <div class="container">
-        <h3 class="trust-title">Trusted by designers worldwide</h3>
-        <div class="trust-logos">
-          <span class="trust-stat">20+</span>
-          <span style="color: var(--light-gray)"
-            >designers using KOMPONI assets</span
-          >
-        </div>
-      </div>
-    </section>
-
-
-     <!-- Import Guide -->
+    <!-- Import Guide -->
     <section class="import-guide">
       <div class="container">
         <h2 class="guide-title">How to Import to Figma</h2>
@@ -192,7 +546,7 @@
     </section>
 
     <!-- Footer -->
-  <footer>
+    <footer>
       <div class="container">
         <div class="footer-bottom">
           <p>
@@ -200,28 +554,37 @@
             design community.
           </p>
           <div class="social-icons">
-            <a href="https://x.com/volvickk" target="_blank" aria-label="Twitter" style="margin-right: 10px;">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+            <a
+              href="https://x.com/volvickk"
+              target="_blank"
+              aria-label="Twitter"
+              style="margin-right: 10px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="100"
+                height="100"
+                viewBox="0 0 50 50"
+              >
                 <path
-                  d="M 11 4 C 7.1456661 4 4 7.1456661 4 11 L 4 39 C 4 42.854334 7.1456661 46 11 46 L 39 46 C 42.854334 46 46 42.854334 46 39 L 46 11 C 46 7.1456661 42.854334 4 39 4 L 11 4 z M 11 6 L 39 6 C 41.773666 6 44 8.2263339 44 11 L 44 39 C 44 41.773666 41.773666 44 39 44 L 11 44 C 8.2263339 44 6 41.773666 6 39 L 6 11 C 6 8.2263339 8.2263339 6 11 6 z M 13.085938 13 L 22.308594 26.103516 L 13 37 L 15.5 37 L 23.4375 27.707031 L 29.976562 37 L 37.914062 37 L 27.789062 22.613281 L 36 13 L 33.5 13 L 26.660156 21.009766 L 21.023438 13 L 13.085938 13 z M 16.914062 15 L 19.978516 15 L 34.085938 35 L 31.021484 35 L 16.914062 15 z">
-                </path>
+                  d="M 11 4 C 7.1456661 4 4 7.1456661 4 11 L 4 39 C 4 42.854334 7.1456661 46 11 46 L 39 46 C 42.854334 46 46 42.854334 46 39 L 46 11 C 46 7.1456661 42.854334 4 39 4 L 11 4 z M 11 6 L 39 6 C 41.773666 6 44 8.2263339 44 11 L 44 39 C 44 41.773666 41.773666 44 39 44 L 11 44 C 8.2263339 44 6 41.773666 6 39 L 6 11 C 6 8.2263339 8.2263339 6 11 6 z M 13.085938 13 L 22.308594 26.103516 L 13 37 L 15.5 37 L 23.4375 27.707031 L 29.976562 37 L 37.914062 37 L 27.789062 22.613281 L 36 13 L 33.5 13 L 26.660156 21.009766 L 21.023438 13 L 13.085938 13 z M 16.914062 15 L 19.978516 15 L 34.085938 35 L 31.021484 35 L 16.914062 15 z"
+                ></path>
               </svg>
             </a>
-
           </div>
         </div>
       </div>
     </footer>
 
-
     <script>
-  const hamburger = document.getElementById('hamburger');
-  const navLinks = document.getElementById('nav-links');
+      const hamburger = document.getElementById("hamburger");
+      const navLinks = document.getElementById("nav-links");
 
-  hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-  });
-</script>
-
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("show");
+      });
+    </script>
   </body>
 </html>

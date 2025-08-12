@@ -122,6 +122,9 @@ nav {
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: none;
 }
 
 .hamburger span {
